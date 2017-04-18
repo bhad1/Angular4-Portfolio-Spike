@@ -1,0 +1,43 @@
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    font-size: 18px;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+  }
+}
+
+.navbar a, .navbar li {
+  color: white;
+}
+
+.navbar .container {
+  margin-top: 20px;
+}
+
+@media (max-width: 575px){
+  .container {
+      width: 540px;
+      max-width: 100%;
+  }
+}
+.contact-me-link{
+  cursor: pointer;
+}
+.fa-line-chart{
+  color: black;
+}
+.fa-line-chart:hover i{
+  color: white;
+}
+/*.navbar-brand:hover{*/
+  /*color: white;*/
+/*}*/

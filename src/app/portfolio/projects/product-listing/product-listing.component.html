@@ -1,0 +1,13 @@
+
+
+<!-- Add your site or application content here -->
+<div class="card-columns container" [hidden]="!showProject">
+  <div class="card" *ngFor="let item of data">
+    <img class="card-img-top img-fluid" src="{{item.image}}" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">{{item.name}}</h4>
+      <p class="card-text">{{item.description}}</p>
+      <p class="card-text"><small class="text-muted">{{item.price}}</small></p>
+    </div>
+  </div>
+</div>

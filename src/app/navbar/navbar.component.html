@@ -1,0 +1,19 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <div class="container">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Bryan Hadaway <i class="fa fa-line-chart" aria-hidden="true"></i></a>
+
+
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a routerLink="/about" routerLinkActive="active" class="nav-link">ABOUT</a></li>
+        <li class="nav-item"><a  routerLink="/portfolio" routerLinkActive="active" class="nav-link">PORTFOLIO</a></li>
+        <li class="nav-item"><a (click)="scrollBottom()" class="nav-link contact-me-link">CONTACT</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>

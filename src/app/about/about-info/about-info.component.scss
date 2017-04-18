@@ -1,0 +1,77 @@
+@media (min-width: 970px) {
+  .container {
+    width: 970px;
+  }
+}
+
+.text-line-height {
+  line-height: 1.8;
+}
+.skillSetIntro {
+  margin-top: 55px;
+}
+
+.new-text-group {
+  margin-top: 20px;
+}
+
+.logosTopRow {
+  width: 355px;
+}
+
+.logosBotRow {
+  width: 100px;
+  padding-top: 20px;
+}
+
+.angularLogo {
+  padding-top: 10px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.gitLogo {
+  width: 210px;
+}
+
+.sassImg {
+  width: 122px;
+}
+
+@media (max-width: 991px) {
+  .sassImgPad {
+    padding-right: 0;
+  }
+
+  .gitLogoPad {
+    padding-left: 0;
+  }
+}
+.my-photo{
+  border: black solid 4px;
+  margin-right: 15px;
+  margin-top: 25px;
+  margin: 0 auto;
+  display: block;
+}
+@media (min-width: 768px){
+  #aboutPicText{
+    max-width: none;
+    flex: none;
+  }
+}
+@media (min-width: 970px){
+  #aboutPicText{
+    max-width: 75.333333%;
+    margin-left: 63px;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 970px){
+  #aboutPic{
+    max-width: none;
+    flex: none;
+  }
+}
